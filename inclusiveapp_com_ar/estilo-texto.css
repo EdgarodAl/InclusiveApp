@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+.titulo-lista{
+	letter-spacing: 3px;
+	/*text-shadow: 3px 2px black;*/
+	font-size: 20px;
+	font-family: "Arial", Arial, sans-serif;
+	color: #999999;/*rgba(214,214,214,0.2);*/
+	/* [disabled]background-color: #e7e5e4; */
+	letter-spacing: 0.15em;
+	top: 5%;
+	left: 5%;
+	margin-bottom:12px;
+	
+	text-shadow: 0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 3px rgba(0, 0, 0, 0.9);
+	}
+	.texto-flotante-nombre{
+		text-align:right;
+	position: absolute;
+	left:60%;
+	top:30px;
+	letter-spacing: 3px;
+	/*text-shadow: 3px 2px black;*/
+	font-size: 2vw;
+	font-family: "Arial", Arial, sans-serif;
+
+	color: #fff;/*rgba(214,214,214,0.2);*/
+	/* [disabled]background-color: #e7e5e4; */
+	letter-spacing: 0.15em;
+	/*margin-top: 20px;*/
+	margin-left:10px;
+	    text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+      0 10px 15px rgba(0, 0, 0, 0.9);
+	}
+.texto-flotante-menu{
+	position: absolute;
+	left:5px;
+	top:5px;
+	letter-spacing: 3px;
+	/*text-shadow: 3px 2px black;*/
+	font-size: 2vw;
+	font-family: "Arial", Arial, sans-serif;
+
+	color: #fff;/*rgba(214,214,214,0.2);*/
+	/* [disabled]background-color: #e7e5e4; */
+	letter-spacing: 0.15em;
+	/*margin-top: 20px;*/
+	margin-left:10px;
+	    text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+      0 10px 15px rgba(0, 0, 0, 0.9);
+	}
+
+.textoflotante{
+	position: absolute;
+	letter-spacing: 3px;
+	/*text-shadow: 3px 2px black;*/
+	font-size: 5vw;
+	font-family: "Arial", Arial, sans-serif;
+
+	color: #fff;/*rgba(214,214,214,0.2);*/
+	/* [disabled]background-color: #e7e5e4; */
+	letter-spacing: 0.15em;
+	top: 5%;
+	left:5%;
+	    text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+      0 4px 0 #282828, 
+      0 5px 0 #262626, 
+      0 6px 0 #242424, 
+      0 7px 0 #222, 
+      0 8px 0 #202020, 
+      0 9px 0 #1e1e1e, 
+      0 10px 0 #1c1c1c, 
+      0 11px 0 #1a1a1a, 
+      0 12px 0 rgba(0, 0, 0, 0.5), 
+      0 13px 0 rgba(0, 0, 0, 0.6), 
+      0 14px 0 rgba(0, 0, 0, 0.7), 
+      0 15px 0 rgba(0, 0, 0, 0.8), 
+      0 22px 30px rgba(0, 0, 0, 0.9);
+	}
+	
+	/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+
+@media screen and (max-width: 481px) {
+	
+	/*.textoflotante{
+	text-shadow: 3px 2px black;
+	font-size: 7vw;
+	top: 1%;
+	left:5%;
+	}
+	.menu{
+	background-color: rgba(0,0,0,1);
+	position: relative;
+	left: 0%;
+	top: 0%;
+	width: 100%;
+	height: 20%;
+	}*/
+	
+	
+}
+@media screen and (max-width: 1000px) {
+	
+	.textoflotante{
+	/*text-shadow: 3px 2px black;*/
+	/*font-size: 5vw;
+		top: 1%;
+	left:5%;*/
+		font-size: 7vw;
+	top: 1%;
+	left:5%;
+		    text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+      0 4px 0 #282828, 
+      0 5px 0 #262626, 
+      0 6px 0 #242424, 
+      0 7px 0 #222, 
+      0 22px 30px rgba(0, 0, 0, 0.9);
+	}
+	
+	
+	.menu{
+	background-color: rgba(0,0,0,1);
+	position: relative;
+	left: 0%;
+	top: 0%;
+	width: 100%;
+	height: 40px;
+	}
+.titulo-lista{
+	letter-spacing: 3px;
+	/*text-shadow: 3px 2px black;*/
+	font-size: 18px;
+	font-family: "Arial", Arial, sans-serif;
+	color: #999999;/*rgba(214,214,214,0.2);*/
+	/* [disabled]background-color: #e7e5e4; */
+	letter-spacing: 0.15em;
+	top: 5%;
+	left: 5%;
+	margin-bottom:12px;
+	text-shadow: 0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 3px rgba(0, 0, 0, 0.9);
+	}
+	.texto-flotante-menu{
+		font-size:32px;}
+}

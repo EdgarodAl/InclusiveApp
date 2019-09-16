@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+.boton-inclusive {
+	display: inline-block;
+	border-radius: 10px;
+	background-color: #0000FF;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	/*	text-shadow: 3px -3px rgba(51,51,51,1);*/
+	text-shadow: 8px 8px 8px #333333;
+	font-size: 2vw;/*28px;*/
+	/*padding: 16vw;20px;
+	    padding-top: 16vw;
+    padding-right: 16vw;
+    padding-bottom: 16vw;
+    padding-left: 16vw;*/
+	width: 16vw;/*260px;*/
+	height: 16vh;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin-top: 2vh;/* 5px;*/
+	margin-left: 2vw;
+	margin-bottom: 2vh;/* 5px;*/
+	margin-right: 2vw;
+}
+
+.boton-inclusive span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.boton-inclusive span:after {
+	
+  content: '\00bb';/*;'\00bb';*/
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -30px;
+  transition: 0.5s;
+	
+}
+
+.boton-inclusive:hover span {
+  padding-right: 25px;
+}
+
+.boton-inclusive:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.boton-inclusive-chico {
+	display: inline-block;
+	border-radius: 10px;
+	background-color: #0000FF;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	/*	text-shadow: 3px -3px rgba(51,51,51,1);*/
+	text-shadow: 8px 8px 8px #333333;
+	font-size: 2vw;/*28px;*/
+	/*padding: 16vw;20px;
+	    padding-top: 16vw;
+    padding-right: 16vw;
+    padding-bottom: 16vw;
+    padding-left: 16vw;*/
+	width: 16vw;/*260px;*/
+	/*height: 16vh;*/
+	padding-top:10px;
+	padding-bottom:10px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin-top: 2vh;/* 5px;*/
+	margin-left: 2vw;
+	margin-bottom: 2vh;/* 5px;*/
+	margin-right: 2vw;
+}
+
+.boton-inclusive-chico span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.boton-inclusive-chico span:after {
+	
+  content: '\00bb';/*;'\00bb';*/
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -30px;
+  transition: 0.5s;
+	
+}
+
+.boton-inclusive-chico:hover span {
+  padding-right: 25px;
+}
+
+.boton-inclusive-chico:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+@media screen and (max-width: 1000px) {
+	.boton-inclusive {
+	display: inline-block;
+	width: 95vw;/*260px;*/
+	height:16vh;
+	font-size: 10vw;
+	}
+	.boton-inclusive span:after {
+
+  right: -60px;
+	}
+	.boton-inclusive:hover span {
+  padding-right: 60px;
+}}

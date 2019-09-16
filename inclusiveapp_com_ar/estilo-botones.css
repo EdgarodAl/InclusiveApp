@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+	.boton-menu-lateral{
+		position:relative;
+		height:22%;
+		/*width:100%;*/
+		overflow:hidden;
+		border-radius:10px;
+		margin:4%;
+		box-shadow:2px 2px 10px #666666;
+		}
+			.boton-menu-lateral:hover{
+				box-shadow:4px 4px 18px #333333;
+			}
+		.imagen-fondo-boton{
+						width:100% ;
+	opacity: 0.3;
+	-webkit-transition: .8s ease-in-out;
+	transition: .8s ease-in-out;
+	}
+	imagen-fondo-boton:hover {
+	opacity: 0.8;
+	-webkit-transition: .8s ease-in-out;
+	transition: .8s ease-in-out;
+	height: auto;
+}
+		.boton-contacto{
+		position:relative;
+		float:right;
+		height:25px;
+		width:80px;
+		overflow:hidden;
+		border-radius:10px;
+		/*margin:4%;*/
+		box-shadow:2px 2px 10px #666666;
+		text-align:center;
+		}
+		.boton-contacto:hover{
+			box-shadow:4px 4px 18px #666666;
+			}
+		@media screen and (max-width: 1000px) {
+			
+		.boton-menu-lateral{
+		position:relative;
+		float:left;
+		height:43px;
+		width:22%;
+		overflow:hidden;
+		border-radius:10px;
+		margin:1%;
+		box-shadow:2px 2px 10px #666666;
+		
+		}		
+			
+			
+		}

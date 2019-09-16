@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+.login-encabezado{
+	float:right;
+	width:23%;
+	/*height:100%;*/
+	}
+
+.marco-lista{
+	background-color: #CCCCCC;
+	width: 61%;
+	margin-top: 10%;
+	margin-left: 2%;
+	margin-bottom: 2%;
+	padding:10px;
+	border-radius: 10px;
+	}
+	
+.item-lista{
+	margin:10px;
+	height: 280px;
+	border-radius: 10px;
+	/*width: 90%;*/
+	background-color: #FFFFFF;
+	border-color: #000000;
+	border: 1px solid #444;
+	padding: 15px;
+	overflow:hidden;
+	box-shadow:2px 2px 10px #666666;
+	
+	}
+	.item-lista:hover{
+		background-color: #DCE7B4;
+		box-shadow:5px 5px 20px #000000;}
+		a.nounderline:link 
+{ 
+text-decoration:none; 
+} 
+.imagen-lista{clear:left;
+	float: left;
+	height: 80%;
+	width: 60%;
+	overflow: hidden;
+	/* [disabled]margin: 10px; */
+	border-radius: 5px;
+	}
+.descripcion-lista{
+	/**/
+	float: left;
+	width: 35%;
+	/* [disabled]margin: 10px; */
+	margin-left: 10px;
+	}
+@media screen and (max-width: 1000px) {
+
+	.item-lista{
+	margin:10px;
+	height: 280px;
+	border-radius: 10px;
+	/*width: 90%;*/
+	background-color: #FFFFFF;
+	border-color: #000000;
+	border: 1px solid #444;
+	padding: 15px;
+	overflow:hidden;
+	}
+	.imagen-lista{clear:left;
+	float: left;
+	height: 30%;
+	width: 50%;
+	overflow: hidden;
+	/* [disabled]margin: 10px; */
+	border-radius: 5px;
+	}
+	.descripcion-lista{
+	/**/
+	float: left;
+	width: 100%;
+	/* [disabled]margin: 10px; */
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-bottom:10px;
+	font-size: 15px;
+	}
+}
